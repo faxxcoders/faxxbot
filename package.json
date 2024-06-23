@@ -1,0 +1,27 @@
+{
+  "name": "Faxx Bot",
+  "version": "1.0.0",
+  "description": "Whatsapp chatbot powered by whatsapp-web.js",
+  "main": "system_faxx/main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node system_faxx/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Faxx",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "file-type": "^16.5.4",
+    "form-data": "^2.3.3",
+    "moment-timezone": "^0.5.37",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^3.0.1",
+    "puppeteer": "^21.2.1",
+    "fs": "0.0.1-security",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "https://github.com/Julzk/whatsapp-web.js/tarball/jkr_hotfix_8"
+  }
+}
