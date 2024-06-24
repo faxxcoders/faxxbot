@@ -230,6 +230,7 @@ MimeType: ${media.mimetype}
 Data (length): ${media.data.length}
 Preview: ${tolink}`)       
         message.react(react_done);
+          }
         } catch (e) {
           reply("Terjadi Kesalahan");
          }
@@ -243,6 +244,7 @@ Preview: ${tolink}`)
         var media = await quoted.downloadMedia();
         sock.sendMessage(message.from, media, { sendMediaAsSticker: true, stickerAuthor: packname, stickerName: author, stickerCategories: ["🗿", "😆"]});
         message.react(react_done);
+      }
            } catch (e) {
           reply("Terjadi Kesalahan");
          }
